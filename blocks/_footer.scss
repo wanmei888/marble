@@ -1,0 +1,44 @@
+ .footer {
+     background-color: #1F1F1F;
+     color: #fff;
+     &__inner {
+         display: flex;
+         justify-content: space-between;
+     }
+     &__cards {
+         width: 22%;
+         margin: 7% 0% 7% 0%;
+     }
+     &__title {
+         font-family: Roboto Condensed;
+         font-weight: 700;
+         font-size: 19px;
+         line-height: 22px;
+         color: #6C6C6C;
+         font-family: 'Roboto Condensed', sans-serif;
+         text-transform: uppercase;
+     }
+     li {
+         padding: 10px;
+     }
+     a {
+         font-weight: normal;
+         font-size: 12px;
+         line-height: 20px;
+         color: #CACACA;
+         font-family: 'Roboto', sans-serif;
+     }
+     i {
+         padding: 5px;
+         font-size: 10px;
+     }
+     &__copyright {
+         margin-top: 30px;
+         font-family: Roboto;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 14px;
+         line-height: 22px;
+         color: #CACACA;
+     }
+ }

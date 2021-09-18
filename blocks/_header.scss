@@ -1,0 +1,37 @@
+@import "../variables";
+.header {
+    padding: 36px 0 37px 0;
+    background-color: $header_bg;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo {
+        width: 265px;
+        margin-right: 95px;
+    }
+    &__logo-img {
+        max-width: 100%;
+        object-fit: contain;
+    }
+    &__menu {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    &__menu-item+&__menu-item {
+        margin-left: 30px;
+    }
+    &__menu-link {
+        font-family: Roboto Condensed;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        /* identical to box height, or 100% */
+        text-transform: uppercase;
+        /* accent */
+        color: #4E4E4E;
+    }
+}

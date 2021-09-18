@@ -1,0 +1,30 @@
+@import "../_variables";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.info {
+    background-image: url(../img/header-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto Slab', serif;
+    &__inner {
+        text-align: center;
+        padding: 10%;
+    }
+    &__title {
+        padding: 5%;
+        color: #fff;
+        line-height: 40px;
+    }
+    &__subtitle {
+        color: #A8A8A8;
+        line-height: 40px;
+    }
+    &__btn {
+        background: #3F8DBF;
+        width: 129px;
+        height: 45px;
+        margin-top: 50px;
+        color: #fff;
+        text-transform: uppercase;
+        border-color: #3F8DBF;
+    }
+}
